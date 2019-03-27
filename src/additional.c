@@ -43,7 +43,6 @@ t_anthill	*find_finish(t_anthill **t_str)
 	tmp = (*t_str);
 	while (tmp != NULL)
 	{
-		printf("-----%s\n", tmp->name);
 		if (tmp->pos == 'f')
 			return (tmp);
 		tmp = tmp->next;
